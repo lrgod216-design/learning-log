@@ -8,6 +8,7 @@
 ## What I actually understood (in my own words)
 - functions like strip(), capitalize() can manipulate strings
 - 
+- 
 
 ## What confused me / still don't get
 -
