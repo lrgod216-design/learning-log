@@ -1,10 +1,10 @@
 # Day 1 — [2026/7/15]
 
-**Week:** 1 · **Focus today:** Harvard Python Class week1, CS50P PS0, 
+**Week:** 1 · **Focus today:** Harvard Python Class week1, CS50P PS0
 
 ## What I did
 - Read the AIE article on lantent.space
-
+- CS50P Week 1
 ## What I actually understood (in my own words)
 - input automatically returns a string, no need to have a **str** around it
 - ### Ways to professionalize code:
@@ -16,6 +16,7 @@
     - Mix of code core and LLM core
     - Most of the project: code core. The programs decides when to call LLM
     - Team-leader orchestration: LLM core. LLM decides which agent to delegate to; my code is the constraint: whether the session-spawn or the deny of the tools such as ```web-search``` or ```web-fetch```
+- Way to use match and case in python
 
 ## What confused me / still don't get
 - 
@@ -46,7 +47,7 @@ class Solution:
                 return [i,seen[desired]]
             seen[numbers] = i
     return None
-```
+``` 
 
 ## Tomorrow's first task
 -
