@@ -1,6 +1,6 @@
 # Day 1 — [2026/7/15]
 
-**Week:** 1 · **Focus today:** Harvard Python Class week1, CS50P PS0
+**Week:** 1 · **Focus today:** Harvard Python Class week1, CS50P PS0, NeetCode 150
 
 ## What I did
 - Read the AIE article on lantent.space
@@ -48,6 +48,7 @@ class Solution:
             seen[numbers] = i
     return None
 ``` 
+- Neetcode 150 contains duplicate: use ```dictionary``` when there's a mapping requirement, like I need both value and index; if just need the key, use ```set```
 
 ## Tomorrow's first task
 -
