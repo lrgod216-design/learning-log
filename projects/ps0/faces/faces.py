@@ -4,7 +4,7 @@ def main():
 
 # Converting emotions to emojis
 def convert():
-    prompt = str(input("How are you right now: "))
+    prompt = input("How are you right now: ")
     prompt = prompt.replace(":)", "🙂")
     prompt = prompt.replace(":(", "🙁")
     return prompt
