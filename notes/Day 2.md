@@ -51,4 +51,4 @@ class Solution:
 - Neetcode 150 contains duplicate: use ```dictionary``` when there's a mapping requirement, like I need both value and index; if just need the key, use ```set```
 
 ## Tomorrow's first task
--
+- Work and actually understand the anagram question
