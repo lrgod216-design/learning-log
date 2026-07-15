@@ -1,12 +1,14 @@
 
 def main():
-    print(convert())
+    text = input("How are you right now: ")
+    print(convert(text))
 
 # Converting emotions to emojis
-def convert():
-    prompt = input("How are you right now: ")
-    prompt = prompt.replace(":)", "🙂")
-    prompt = prompt.replace(":(", "🙁")
-    return prompt
+def convert(text):
+    # Store pairs in a dictionary
+    emo = {":)":"🙂", ":(":"🙁"}
+    for emotions, emojis in emo.items():
+        text = text.replace(emotions,emojis)
+    return text
 
 main()

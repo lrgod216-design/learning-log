@@ -1,14 +1,8 @@
-# Calling playback
+# Replace white space with ...
 def main():
-    playback()
-
-# Replace whitespace with ...
-
-def playback():
-    prompt = input("Give me a sentence: ")
-    prompt = prompt.replace(" ", "...")
-    print(prompt)
-
+    text = input("Give me a sentence: ")
+    text = text.replace(" ", "...")
+    print(text)
 
 main()
 
