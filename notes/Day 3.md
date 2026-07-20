@@ -124,7 +124,7 @@
 ```
     t = (1, 2, 3)
 
-    t = (0, t[1], t[2])
+    t = (0, t[1], t[2]) or t = (0,) + t[1:]
 ```
 
 ### Set:
@@ -143,7 +143,7 @@
     colors.discard("yellow") # No error if not found
 
 ```
-
+- ``` pip freeze > requirements.txt ```: creating the requirements.txt, when use it, we can  ``` pip install -r requirements.txt ```
 
 ## What confused me / still don't get
 - 
