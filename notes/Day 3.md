@@ -148,8 +148,34 @@
 ## What confused me / still don't get
 - 
 
-## LeetCode today
-- 
+## NeetCode today
+- Anagram problem. Here are 2 solutions:
+```
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        count_s, count_t = {}, {}
+        for i in range(len(s)):
+            count_s[s[i]] = count_s.get(s[i], 0) + 1
+            count_t[t[i]] = count_t.get(t[i], 0) + 1
+        
+        for letter in count_s:
+            if count_s[letter] != count_t.get(letter, 0):
+                return False
+        
+        return True
+```
+
+```
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return sorted(s) == sorted(t)
+        
+```
+- If using the second ```sorted``` way, can discuss with interviewer whether we assume the sorted space complexity is O(1)
+
+        
 
 ## Tomorrow's first task
 - 
