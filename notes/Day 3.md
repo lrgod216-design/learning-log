@@ -88,12 +88,61 @@
     # Access nested data
     print(students["alice"]["grade"])  # "A"
 ```
-    - Keys have to be ** immutable **
+
+- Keys have to be **immutable** 
 
 
+### Tuple:
 
+```
+    # Example
 
+    empty = ()
 
+    # Tuple with items
+    t = (1, "hello", [2, 3], (4, 5)) 
+
+    # Single item tuple needs comma!
+    single = (42,)  
+
+    # Without parentheses (implicit)
+    coordinates = 10, 20
+
+    # Unpack values
+    point = (3, 5)
+    x, y = point  # x = 3, y = 5
+
+    # Multiple assignment
+    a, b, c = 1, 2, 3  # Same as (1, 2, 3)
+
+    # Swap variables elegantly
+    x, y = y, x  # Swaps values!
+```
+
+- Tuples are **immutable**, in order to chanage:
+
+```
+    t = (1, 2, 3)
+
+    t = (0, t[1], t[2])
+```
+
+### Set:
+
+```
+    # Example
+
+    colors = {"red", "blue"}
+
+    # Add items
+    colors.add("green")
+    print(colors)  # {'red', 'blue', 'green'}
+
+    # Remove items
+    colors.remove("blue")    # Error if not found
+    colors.discard("yellow") # No error if not found
+
+```
 
 
 ## What confused me / still don't get
