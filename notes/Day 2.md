@@ -1,4 +1,4 @@
-# Day 1 — [2026/7/15]
+# Day 2 — [2026/7/15]
 
 **Week:** 1 · **Focus today:** Harvard Python Class week1, CS50P PS0, NeetCode 150
 
