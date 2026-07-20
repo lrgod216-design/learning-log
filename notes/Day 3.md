@@ -7,9 +7,13 @@
 ## What I actually understood (in my own words)
 - Division in python always return float. If want integer, use ```// ``` instead of ```/```
 ### List Methods:
-    - e.g. 
+   
     ```
-    fruits = 
+    # Examples
+    fruits = ["apple", "banana", "orange"]
+    fruits.append("grape") # ["apple", "banana", "orange", "grape"], append an item at last
+    fruits.insert(0,"kiwi") # ["kiwi", "apple", "banana", "orange", "grape"], insert item at    specified index
+
 
 
 
