@@ -7,8 +7,7 @@
 ## What I actually understood (in my own words)
 - Division in python always return float. If want integer, use ```// ``` instead of ```/```
 ### List:
-   
-    ```
+```
     # Example 1
     
     fruits = ["apple", "banana", "orange"]
@@ -21,9 +20,7 @@
     del fruits[0]              # Remove by index
 ​
 
-    ```
 
-    ```
     # Example 2
 
     numbers = [3, 1, 4, 1, 5, 9]
@@ -43,7 +40,7 @@
     # Copy
     new_list = numbers.copy()   # Create a copy
 
-    ```
+```
 
 ### Dictionary:
 
@@ -91,6 +88,7 @@
     # Access nested data
     print(students["alice"]["grade"])  # "A"
 ```
+    - Keys have to be ** immutable **
 
 
 
