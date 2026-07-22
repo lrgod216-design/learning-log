@@ -3,7 +3,8 @@
 **Week:** 1 · **Focus today:** 
 
 ## What I did
-- 
+- 2 neetcode problems: group anagram and topk frequent elements
+- continue watching Dave's video on python for aie
 ## What I actually understood (in my own words)
 - 
 
