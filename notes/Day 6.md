@@ -4,6 +4,7 @@
 
 ## What I did
 - neetcode "coding interviews in 2026" video
+- neetcode/leetcode #36 Valid Sudoku
 ## Notes
 - You HAVE TO KNOW what exactly are you doing. Need to understand the code, explain the code, and make sure the code you implement is correct(i.e. even with the help of AI, need to know what exactly is happening)
 - Have a **checklist** when implementing code. Think about the **pros** and **cons**. For example: what's the alternative way of implementing the solution and **WHY**
